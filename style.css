@@ -35,13 +35,14 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 800;
+  font-size: 12px;
 }
 
 .game-button-1:hover,
 .game-button-2:hover,
 .game-button-3:hover {
-  font-size: 20px;
-  color: blanchedalmond;
+  font-size: 20px !important;
+  color: #ffebcd !important;
 }
 
 .choices {
