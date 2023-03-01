@@ -46,7 +46,7 @@ function playRound(playerChoice, opponentChoice) {
     opponentChoiceText.textContent = "Opponent choice: Scissors";
 
     playerScore++;
-    playerResult.textContent = "Player result " + playerScore;
+    playerResult.textContent = "Your result " + playerScore;
   } else if (playerChoice == 0 && opponentChoice == 0) {
     playerChoiceText.textContent = "Your choice: Rock";
     opponentChoiceText.textContent = "Opponent choice: Rock";
@@ -55,7 +55,7 @@ function playRound(playerChoice, opponentChoice) {
     opponentChoiceText.textContent = "Opponent choice: Rock";
 
     playerScore++;
-    playerResult.textContent = "Player result " + playerScore;
+    playerResult.textContent = "Your result " + playerScore;
   } else if (playerChoice == 1 && opponentChoice == 2) {
     playerChoiceText.textContent = "Your choice: Paper";
     opponentChoiceText.textContent = "Opponent choice: Scissors";
@@ -76,7 +76,7 @@ function playRound(playerChoice, opponentChoice) {
     opponentChoiceText.textContent = "Opponent choice: Paper";
 
     playerScore++;
-    playerResult.textContent = "Player result " + playerScore;
+    playerResult.textContent = "Your result " + playerScore;
   } else if (playerChoice == 2 && opponentChoice == 2) {
     playerChoiceText.textContent = "Your choice: Scissors";
     opponentChoiceText.textContent = "Opponent choice: Scissors";
