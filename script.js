@@ -46,6 +46,9 @@ function playRound(playerChoice, opponentChoice) {
     opponentResult.textContent = "Opponent result " + opponentScore;
     resultText.textContent = "You lose! The opponent win with Paper.";
     resultText.style = "color: red;";
+    firstButton.style = "color: white; font-size: 12px;";
+    secondButton.style = "color: red; font-size: 20px;";
+    thirdButton.style = "color: white; font-size: 12px;";
   } else if (playerChoice == 0 && opponentChoice == 2) {
     playerChoiceText.textContent = "Your choice: Rock";
     opponentChoiceText.textContent = "Opponent choice: Scissors";
@@ -54,11 +57,17 @@ function playRound(playerChoice, opponentChoice) {
     playerResult.textContent = "Your result " + playerScore;
     resultText.textContent = "You win against the opponent with Rock!";
     resultText.style = "color: green;";
+    firstButton.style = "color: green; font-size: 20px;";
+    secondButton.style = "color: white; font-size: 12px;";
+    thirdButton.style = "color: white; font-size: 12px;";
   } else if (playerChoice == 0 && opponentChoice == 0) {
     playerChoiceText.textContent = "Your choice: Rock";
     opponentChoiceText.textContent = "Opponent choice: Rock";
     resultText.textContent = "It is a draw this time!";
     resultText.style = "color: black;";
+    firstButton.style = "color: white; font-size: 12px;";
+    secondButton.style = "color: white; font-size: 12px;";
+    thirdButton.style = "color: white; font-size: 12px;";
   } else if (playerChoice == 1 && opponentChoice == 0) {
     playerChoiceText.textContent = "Your choice: Paper";
     opponentChoiceText.textContent = "Opponent choice: Rock";
@@ -67,6 +76,9 @@ function playRound(playerChoice, opponentChoice) {
     playerResult.textContent = "Your result " + playerScore;
     resultText.textContent = "You win against the opponent with Paper.";
     resultText.style = "color: green;";
+    firstButton.style = "color: white; font-size: 12px;";
+    secondButton.style = "color: green; font-size: 20px;";
+    thirdButton.style = "color: white; font-size: 12px;";
   } else if (playerChoice == 1 && opponentChoice == 2) {
     playerChoiceText.textContent = "Your choice: Paper";
     opponentChoiceText.textContent = "Opponent choice: Scissors";
@@ -75,11 +87,17 @@ function playRound(playerChoice, opponentChoice) {
     opponentResult.textContent = "Opponent result " + opponentScore;
     resultText.textContent = "You lose! The opponent win with Scissors.";
     resultText.style = "color: red;";
+    firstButton.style = "color: white; font-size: 12px;";
+    secondButton.style = "color: white; font-size: 12px;";
+    thirdButton.style = "color: red; font-size: 20px;";
   } else if (playerChoice == 1 && opponentChoice == 1) {
     playerChoiceText.textContent = "Your choice: Paper";
     opponentChoiceText.textContent = "Opponent choice: Paper";
     resultText.textContent = "It is a draw this time!";
     resultText.style = "color: black;";
+    firstButton.style = "color: white; font-size: 12px;";
+    secondButton.style = "color: white; font-size: 12px;";
+    thirdButton.style = "color: white; font-size: 12px;";
   } else if (playerChoice == 2 && opponentChoice == 0) {
     playerChoiceText.textContent = "Your choice: Scissors";
     opponentChoiceText.textContent = "Opponent choice: Rock";
@@ -88,6 +106,9 @@ function playRound(playerChoice, opponentChoice) {
     opponentResult.textContent = "Opponent result " + opponentScore;
     resultText.textContent = "You lose! The opponent win with Rock.";
     resultText.style = "color: red;";
+    firstButton.style = "color: red; font-size: 20px;";
+    secondButton.style = "color: white; font-size: 12px;";
+    thirdButton.style = "color: white; font-size: 12px;";
   } else if (playerChoice == 2 && opponentChoice == 1) {
     playerChoiceText.textContent = "Your choice: Scissors";
     opponentChoiceText.textContent = "Opponent choice: Paper";
@@ -96,11 +117,17 @@ function playRound(playerChoice, opponentChoice) {
     playerResult.textContent = "Your result " + playerScore;
     resultText.textContent = "You win against the opponent with Scissors.";
     resultText.style = "color: green;";
+    firstButton.style = "color: white; font-size: 12px;";
+    secondButton.style = "color: white; font-size: 12px;";
+    thirdButton.style = "color: green; font-size: 20px;";
   } else if (playerChoice == 2 && opponentChoice == 2) {
     playerChoiceText.textContent = "Your choice: Scissors";
     opponentChoiceText.textContent = "Opponent choice: Scissors";
     resultText.textContent = "It is a draw this time!";
     resultText.style = "color: black;";
+    firstButton.style = "color: white; font-size: 12px;";
+    secondButton.style = "color: white; font-size: 12px;";
+    thirdButton.style = "color: white; font-size: 12px;";
   }
   gameRounds++;
   if (gameRounds == 5) {
