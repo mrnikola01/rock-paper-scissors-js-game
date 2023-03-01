@@ -57,17 +57,24 @@ body {
   gap: 150px;
 }
 
+.result-text {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: 300;
+}
+
 @media (orientation: portrait) {
   .game-buttons {
     flex-direction: column;
   }
 
   .game-title {
-    font-size: 15px;
+    font-size: 32px;
   }
   .game-information {
-    font-size: 12px;
-    max-width: 150px;
+    font-size: 16px;
+    max-width: 250px;
+    padding-top: 5px;
   }
 
   .choices {
